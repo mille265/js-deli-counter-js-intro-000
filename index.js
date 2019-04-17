@@ -20,8 +20,8 @@ function nowServing(line) {
   return `Currently serving ${line.shift()}.`
 };
 
-function takeANumber(line, name) {
+function takeANumber(line) {
   line.push(name)
 
-  return `Welcome, ${name}. You are number ${line.length} in line.`
+  return `You are number ${line.length}.`
 };
